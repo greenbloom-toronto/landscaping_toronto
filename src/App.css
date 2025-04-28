@@ -1,0 +1,7 @@
+.app {
+  scroll-behavior: smooth;
+  position: relative;
+  @media (min-width: 1000px) {
+    min-height: calc(100vh);
+  }
+}
