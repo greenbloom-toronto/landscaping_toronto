@@ -1,5 +1,4 @@
 import { Button, IconButton, styled } from "@mui/material";
-import { Link } from "react-router-dom";
 
 export const StyledProjectsSection = styled('section')(() => ({
     margin: '0 auto',

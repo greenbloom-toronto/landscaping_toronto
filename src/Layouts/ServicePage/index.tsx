@@ -3,8 +3,8 @@ import { useLocation, Link } from 'react-router-dom';
 import { servicesList } from '../../resources/data/arrays';
 import { MainPageOptions } from '../MainPageOptions';
 import { useMediaQuery } from '@mui/material';
-import { AppInnerContainer, AppOuterContainer } from '../DesktopLayout/styled';
-import { StyledServicePageMain, StyledServicePageSidebar } from './styled';
+import { AppOuterContainer } from '../DesktopLayout/styled';
+import { StyledServicePageSidebar } from './styled';
 import { ServicePageContent } from './Content';
 
 const ServicePage = () => {
@@ -44,7 +44,7 @@ const ServicePage = () => {
 
             {/* Main Content */}
             <div style={{ display: 'flex', gap: mobile ? 0 : '30px', flexDirection: mobile ? 'column' : 'row-reverse' }}>
-                {currentSubService?.subSubServices?.length > 0  && (
+                {currentSubService?.subSubServices?.length > 0 && (
                     <StyledServicePageSidebar
                         style={{
                             padding: '1rem',

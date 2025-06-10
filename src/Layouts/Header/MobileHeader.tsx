@@ -1,21 +1,16 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-import disableScroll from "disable-scroll";
 import logo from '../../resources/images/greenbloom_logo.png'
 import {
     Box,
-    Paper,
     IconButton,
     Drawer,
     List,
     ListItemButton,
-    ListItemText,
     Collapse,
     Divider,
-    Typography
 } from "@mui/material";
 import { Close, ExpandLess, ExpandMore, Menu } from "@mui/icons-material";
-import { StyletMobileFooterLogo } from "../Footer/styled";
 
 interface MobileHeaderMenuProps {
     servicesList: any[];

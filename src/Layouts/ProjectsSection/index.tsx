@@ -1,4 +1,4 @@
-import { IconButton, useMediaQuery } from "@mui/material";
+import { useMediaQuery } from "@mui/material";
 import { ProjectsSeeMoreButton, StyledProjectCell, StyledProjectCellButton, StyledProjectCellTitle, StyledProjectsSection, StyledProjectsSectionList, StyledProjectsSectionTitle, StyledProjectsSectionTop } from "./styled"
 import { useMemo, useState } from "react";
 import { ArrowBackIos, ArrowForwardIos } from "@mui/icons-material";
@@ -68,7 +68,7 @@ export const ProjectsSection: React.FC<IProps> = ({ projects }) => {
             </StyledProjectsSectionTop>
 
             <StyledProjectsSectionList>
-                {randomProjects.map((project: any, index: number) => {
+                {randomProjects.map((project: any) => {
                     const currentImageIndex = imageIndices[project.id] || 0;
                     const totalImages = project.images.length;
 

@@ -1,6 +1,6 @@
-import { Link, useLocation } from "react-router-dom"
+import { useLocation } from "react-router-dom"
 import { useState, useRef } from "react"
-import { Box, Paper, MenuItem } from "@mui/material"
+import { Box, Paper } from "@mui/material"
 import {
     MainPageOptionsList,
     MainPageOptionsListItem,

@@ -13,8 +13,7 @@ import './phoneStyles.scss';
 import './style.scss';
 import { Alert, Snackbar, useMediaQuery } from "@mui/material";
 // import { CalendarDialog } from "../Dialogs/CalendarDialog/CalendarDialog";
-import { ContactMailOutlined, Download } from "@mui/icons-material";
-import { Link } from "react-router-dom";
+import { ContactMailOutlined } from "@mui/icons-material";
 import home_stars_verified from '../../resources/icons/home-stars-verified.png';
 import best_of_houzz from '../../resources/icons/best-of-houzz.png';
 import consumer_choice from '../../resources/icons/consumer-choice.png'

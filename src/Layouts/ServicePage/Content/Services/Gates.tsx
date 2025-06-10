@@ -1,7 +1,6 @@
 import React from "react";
 import gates2 from '../../../../resources/images/gates2.jpg'
 import gates3 from '../../../../resources/images/gates3.jpg'
-import gates4 from '../../../../resources/images/gates4.jpg'
 
 export const Gates: React.FC = () => {
   return (

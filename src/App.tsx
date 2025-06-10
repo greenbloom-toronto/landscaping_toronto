@@ -1,4 +1,3 @@
-import { useEffect, useState } from 'react';
 import './App.css';
 import { DesktopLayout } from './Layouts/DesktopLayout';
 import { Route, Routes, useLocation } from 'react-router-dom';

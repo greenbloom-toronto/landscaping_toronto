@@ -1,4 +1,4 @@
-import { ArrowLeft, ArrowRight, KeyboardArrowLeft, KeyboardArrowRight, StarRateRounded } from "@mui/icons-material"
+import { KeyboardArrowLeft, KeyboardArrowRight, StarRateRounded } from "@mui/icons-material"
 import { StyledReviewCell, StyledReviewCellBottom, StyledReviewCellBottomLeft, StyledReviewCellBottomRight, StyledReviewCellBottomRightPlaceholder, StyledReviewCellDate, StyledReviewCellName, StyledReviewCellReview, StyledReviewCellTop, StyledReviewsIconCell, StyledReviewsRow, StyledReviewsSection, StyledReviewsSectionRight, StyledReviewsSectionTitle, StyledReviewsSectionTop } from "./styled"
 import { useEffect, useRef, useState } from "react";
 import { Rating, useMediaQuery } from "@mui/material";
@@ -101,7 +101,7 @@ export const ReviewsSection: React.FC = () => {
     const mobile = useMediaQuery('(max-width:1000px)');
 
     const scrollableRef = useRef<HTMLDivElement | null>(null);
-    const [isScrollVisible, setIsScrollVisible] = useState<boolean>(false);
+    const [_isScrollVisible, setIsScrollVisible] = useState<boolean>(false);
     const [itemWidth, setItemWidth] = useState<number>(0);
     const [isAtStart, setIsAtStart] = useState<boolean>(true);
     const [isAtEnd, setIsAtEnd] = useState<boolean>(false);

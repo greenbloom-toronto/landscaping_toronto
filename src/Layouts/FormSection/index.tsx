@@ -18,7 +18,7 @@ import {
     StyledFormSubmitButton
 } from "./styled.tsx";
 import '../MainPage/style.scss';
-import { FormControl, InputLabel, Select, OutlinedInput, MenuItem, Checkbox, ListItemText, FormControlLabel, Snackbar, Alert, SelectChangeEvent } from "@mui/material";
+import { FormControl, MenuItem, Checkbox, ListItemText, FormControlLabel, Snackbar, Alert, SelectChangeEvent } from "@mui/material";
 
 interface QuoteFormData {
     firstName: string;

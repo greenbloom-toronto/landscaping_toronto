@@ -3,7 +3,7 @@ import { questionsList, servicesList } from "../../resources/data/arrays";
 import { AppOuterContainer } from "../DesktopLayout/styled"
 import { MainPageOptions } from "../MainPageOptions";
 import { FAQPageQuoteButton, StyledFAQCellAnswer, StyledFAQCellTitle, StyledFAQIconCell, StyledFAQIconCellNumber, StyledFAQPage, StyledFAQPageCell, StyledFAQPageCellLeft, StyledFAQPageCellTop, StyledFAQPageContentTop, StyledFAQPageMain, StyledFAQPageQuestionsList, StyledFAQPageSubTitle, StyledFAQPageTip, StyledFAQPageTitle, StyledFAQPageTop, StyledFAQPageTopButton, StyledFAQPageTopLeft, StyledFAQPageTopRight } from "./styled"
-import { Add, Close, HdrPlus, PhoneIphoneOutlined, PlusOne } from "@mui/icons-material";
+import { Add, Close, PhoneIphoneOutlined } from "@mui/icons-material";
 import { HeaderLink, HeaderIcon, HeaderPipe } from "../Header/styled";
 import EmailIcon from '@mui/icons-material/EmailOutlined';
 import { useState, useEffect } from "react";

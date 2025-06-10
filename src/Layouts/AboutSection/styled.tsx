@@ -1,4 +1,4 @@
-import { Button, styled } from "@mui/material";
+import { styled } from "@mui/material";
 import image from '../../resources/images/about-image.jpg'
 import { Link } from "react-router-dom";
 

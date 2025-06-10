@@ -11,19 +11,13 @@ import {
     HeaderPipe,
     HeaderRightPart,
     HeaderInnerInnerContainer,
-    MobileHeaderButton,
-    MobileHeaderMenu,
-    MobileHeaderMenuTop,
-    MobileHeaderLinksList,
-    MobileHeaderLinksLink,
 } from "./styled.tsx";
 import logo from "../../resources/images/greenbloom_logo.png";
-import { CloseOutlined, Menu, PhoneIphoneOutlined } from "@mui/icons-material";
+import { PhoneIphoneOutlined } from "@mui/icons-material";
 import EmailIcon from "@mui/icons-material/EmailOutlined";
 // import { useOpenQuoteDialog } from "../../Storages/useOpenQuoteDialog";
 // import { MainPageOptionsQuoteButton } from "../MainPageOptions/styled";
 // import { servicesList } from "../../resources/data/arrays";
-import { Link, useLocation } from "react-router-dom";
 import { MainPageOptionsQuoteButton } from "../MainPageOptions/styled.tsx";
 import { servicesList } from "../../resources/data/arrays.tsx";
 import { MobileHeader } from "./MobileHeader.tsx";
@@ -33,9 +27,7 @@ interface IProps { }
 export const Header: React.FC<IProps> = () => {
     // const { setOpenQuoteDialog } = useOpenQuoteDialog();
     const mobile = useMediaQuery("(max-width:1000px)");
-    const [showMobileMenu, setShowMobileMenu] = useState(false);
-
-    const location = useLocation()
+    const [showMobileMenu, _setShowMobileMenu] = useState(false);
 
     useEffect(() => {
         if (showMobileMenu) {

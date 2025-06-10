@@ -6,7 +6,6 @@ import EmailIcon from '@mui/icons-material/EmailOutlined';
 import { PhoneIphoneOutlined } from "@mui/icons-material";
 import { useMediaQuery } from "@mui/material";
 import logo from '../../resources/images/greenbloom_logo.png'
-import { Link } from "react-router-dom";
 import { AppOuterContainer } from "../DesktopLayout/styled.tsx";
 
 
