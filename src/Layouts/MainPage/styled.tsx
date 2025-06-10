@@ -22,7 +22,8 @@ export const StyledMainPage = styled('section')(() => ({
         // height: "fit-content",
         height: 'calc(100vh - 84px)',
         justifyContent: 'space-between',
-        padding: '0'
+        padding: '0',
+        overflow: 'hidden'
     }
 }))
 
@@ -61,7 +62,8 @@ export const StyledMainPageTitle = styled('h1')(() => ({
         fontSize: '24px',
         paddingBottom: '24px',
         borderBottomRightRadius: 0,
-        borderBottomLeftRadius: 0
+        borderBottomLeftRadius: 0,
+        marginTop: '50px'
     }
 }))
 
@@ -314,7 +316,13 @@ export const StyledMainPageRewards = styled('div')(() => ({
     background: 'rgba(0, 0, 0, 0.75)',
     padding: '32px 48px',
     width: 'fit-content',
-    borderRadius: '32px'
+    borderRadius: '32px',
+
+    ['@media (max-width: 1000px)']: {
+        // height: "fit-content",
+        flexDirection: 'column',
+        gap: '24px'
+    }
 }))
 
 export const StyledMainPageRewardsIcon = styled('img')(() => ({
@@ -323,5 +331,10 @@ export const StyledMainPageRewardsIcon = styled('img')(() => ({
 
     [':hover']: {
         transform: 'scale(1.2)'
+    },
+
+    ['@media (max-width: 1000px)']: {
+        // height: "fit-content",
+        width: '100px'
     }
 }))

@@ -26,7 +26,7 @@ export const Footer: React.FC = () => {
                                 }
                             }}
                         >
-                            <StyletMobileFooterLogo sx={{ transform: 'scale(2)' }} src={logo} />
+                            <StyletMobileFooterLogo sx={{ transform: mobile ? 'none' :  'scale(2)' }} src={logo} />
                         </StyledFooterColumn>
                     )}
                     <StyledFooterColumn
@@ -73,12 +73,12 @@ export const Footer: React.FC = () => {
                             }}
                         >
 
-                            <StyledFooterColumnService
+                            {/* <StyledFooterColumnService
                                 to={'/blog'}
                                 onClick={() => window.scrollTo({ top: 0 })}
                             >
                                 Blog
-                            </StyledFooterColumnService>
+                            </StyledFooterColumnService> */}
                             <StyledFooterColumnService
                                 to={'/projects-gallery'}
                                 onClick={() => window.scrollTo({ top: 0 })}
@@ -98,10 +98,10 @@ export const Footer: React.FC = () => {
                                 FAQ Page
                             </StyledFooterColumnService>
                             <StyledFooterColumnService
-                                to={'/employment'}
+                                to={'/careers'}
                                 onClick={() => window.scrollTo({ top: 0 })}
                             >
-                                Employment
+                                Careers
                             </StyledFooterColumnService>
                         </StyledFooterColumnContent>
                     </StyledFooterColumn>

@@ -15,7 +15,7 @@ export const StyledFooter = styled('footer')(() => ({
     ['@media (max-width: 1000px)']: {
         height: 'fit-content',
         padding: '30px 16px',
-        marginBottom: '90px'
+        marginBottom: '30px'
     }
 }))
 
@@ -109,5 +109,10 @@ export const StyledFooterColumnFlexRow = styled('div')(() => ({
 
 export const StyletMobileFooterLogo = styled('img')(() => ({
     width: '90px',
-    height: '90px'
+    height: '90px',
+
+    ['@media (max-width: 1000px)']: {
+        width: '110px'
+
+    }
 }))

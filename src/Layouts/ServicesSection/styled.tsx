@@ -143,6 +143,11 @@ export const StyledSubServices = styled('div')(() => ({
     backdropFilter: 'blur(3px)',
     background: 'rgba(0, 0, 0, 0.7)',
     color: '#fff',
+
+    ['@media (max-width: 1000px)']: {
+        // height: "fit-content",
+        top: 31
+    }
 }))
 
 export const StyledSubServicesList = styled('ul')(() => ({

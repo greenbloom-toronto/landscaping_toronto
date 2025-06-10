@@ -117,7 +117,7 @@ export const MainPageOptions: React.FC<IProps> = ({ servicesList }) => {
                     Projects
                 </MainPageOptionsListItem>
 
-                <MainPageOptionsListItem
+                {/* <MainPageOptionsListItem
                     sx={{
                         textDecoration: location.pathname === '/blog' ? 'underline' : 'none',
                         textUnderlineOffset: '8px'
@@ -125,6 +125,16 @@ export const MainPageOptions: React.FC<IProps> = ({ servicesList }) => {
                     to="/blog"
                 >
                     Blog
+                </MainPageOptionsListItem> */}
+
+                <MainPageOptionsListItem
+                    sx={{
+                        textDecoration: location.pathname === '/careers' ? 'underline' : 'none',
+                        textUnderlineOffset: '8px'
+                    }}
+                    to="/careers"
+                >
+                    Careers
                 </MainPageOptionsListItem>
 
                 <MainPageOptionsListItem

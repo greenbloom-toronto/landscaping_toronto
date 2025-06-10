@@ -76,6 +76,10 @@ export const StyledProjectsSectionList = styled('ul')(() => ({
     width: '100%',
     margin: '0 auto',
     maxWidth: '1100px',
+
+    ['@media (max-width: 1000px)']: {
+        justifyContent: 'center'
+    }
 }))
 
 export const StyledProjectCell = styled('li')(() => ({
@@ -100,9 +104,10 @@ export const StyledProjectCell = styled('li')(() => ({
 
 export const StyledProjectCellTitle = styled('div')(({
     fontWeight: 600,
-    fontSize: '22px',
+    fontSize: '18px',
     position: 'absolute',
-    padding: '6px 0',
+
+    padding: '6px',
     textAlign: 'center',
     width: '100%',
     background: '#02703d',
@@ -112,8 +117,10 @@ export const StyledProjectCellTitle = styled('div')(({
     margin: 'auto',
 
     ['@media (max-width: 1000px)']: {
-        fontSize: '16px',
-        wordBreak: 'no-break'
+        fontSize: '12px',
+        wordBreak: 'no-break',
+        padding: '6px 14px',
+        width: 'calc(100% - 28px)'
     }
 }))
 

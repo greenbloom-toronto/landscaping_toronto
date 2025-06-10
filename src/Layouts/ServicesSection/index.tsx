@@ -31,8 +31,8 @@ export const ServicesSection: React.FC<IProps> = ({ servicesList }) => {
                     <StyledServiceCell
                         sx={{
                             padding: mobile ? '30px 16px' : '40px 20px',
-                            minWidth: mobile ? 'calc(100% / 2 - 36px)' : 'calc(100% / 2 - 46px)',
-                            maxWidth: mobile ? 'calc(100% / 2 - 36px)' : 'calc(100% / 2 - 46px)',
+                            minWidth: mobile ? 'calc(100% - 36px)' : 'calc(100% / 2 - 46px)',
+                            maxWidth: mobile ? 'calc(100% - 36px)' : 'calc(100% / 2 - 46px)',
                             background: `url(${item.image})`,
                             backgroundRepeat: 'no-repeat',
                             backgroundSize: 'cover',
@@ -43,7 +43,7 @@ export const ServicesSection: React.FC<IProps> = ({ servicesList }) => {
                         <StyledSubServices style={{
                             overflow: isOpened && item.id === openedService ? 'visible' : 'hidden',
                             width: isOpened && item.id === openedService ? '100%' : 0,
-                            height: isOpened && item.id === openedService ? 'calc(100% - 39px)' : 0,
+                            height: isOpened && item.id === openedService ? mobile ? 'calc(100% - 31px)' : 'calc(100% - 39px)' : 0,
                         }}>
                             <StyledSubServicesList>
                                 {item.subServices.map((subService: any) => (

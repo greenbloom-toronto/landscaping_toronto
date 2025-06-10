@@ -7,6 +7,8 @@ import { QuoteRequestForm } from './Layouts/FormSection';
 import { Footer } from './Layouts/Footer/Footer';
 import ServicePage from './Layouts/ServicePage';
 import { FAQPage } from './Layouts/FAQPage';
+import { ProjectsPage } from './Layouts/ProjectsPage';
+import { CareersPage } from './Layouts/CareersPage';
 // import { servicesList } from './resources/data/arrays';
 // import { useOpenQuoteDialog } from './Storages/useOpenQuoteDialog';
 // import { QuoteDialog } from './Layouts/Dialogs/QuoteDialog/QuoteDialog';
@@ -50,15 +52,11 @@ function App() {
         /> */}
         <Route path="/services/*" element={<ServicePage />} />
         <Route path="/faq-page" element={<FAQPage />} />
+        <Route path="/projects-gallery/*" element={<ProjectsPage />} />
+        <Route path="/careers" element={<CareersPage />} />
       </Routes>
-      <QuoteRequestForm />
+      <QuoteRequestForm careers={location.pathname.includes("careers")} />
       <Footer />
-      {/* {openQuoteDialog && (
-        <QuoteDialog
-          open={openQuoteDialog}
-          onClose={() => setOpenQuoteDialog(false)}
-        />
-      )} */}
     </div>
   );
 }

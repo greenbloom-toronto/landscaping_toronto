@@ -5,12 +5,21 @@ export const StyledFormPage = styled('section')(() => ({
     maxWidth: '1600px',
     padding: '0 30px',
     margin: 'auto',
+
+    ['@media (max-width: 1000px)']: {
+        // height: "fit-content",
+        padding: '0 16px'
+    }
 }))
 
-export const StyledFormPageContent = styled('div')(() => ({
+interface IProps {
+    isCareers: boolean
+}
+
+export const StyledFormPageContent = styled('div')<IProps>(({ isCareers = false }) => ({
     margin: '0 auto',
     background: '#e3e3e3',
-    height: 'calc(100vh - 170px)',
+    height: isCareers ? 'fit-content' : 'calc(100vh - 170px)',
     marginTop: '30px',
     marginBottom: '30px',
     padding: '30px',
@@ -18,14 +27,27 @@ export const StyledFormPageContent = styled('div')(() => ({
     display: 'flex',
     flexDirection: 'column',
     justifyContent: 'space-evenly',
-    gap: '40px'
+    gap: '40px',
+
+    ['@media (max-width: 1000px)']: {
+        // height: "fit-content",
+        height: 'fit-content',
+        padding: '30px 16px 16px'
+    }
 }))
 
 export const StyledFormPageForm = styled('form')(() => ({
     width: '100%',
     background: '#02703d',
     padding: '36px',
-    borderRadius: '30px'
+    borderRadius: '30px',
+
+    ['@media (max-width: 1000px)']: {
+        // height: "fit-content",
+        height: 'fit-content',
+        padding: '24px 16px'
+    }
+
 }))
 
 export const StyledFormPageTop = styled('div')(() => ({
@@ -114,6 +136,10 @@ export const StyledFormPageFieldsWrap = styled('div')(() => ({
 export const StyledFormInputsFirstLine = styled('div')(() => ({
     display: 'flex',
     gap: '10px',
+
+    ['@media (max-width: 1000px)']: {
+        flexDirection: 'column'
+    }
 }))
 
 export const StyledFormInputsFirstLineLeft = styled('div')(() => ({

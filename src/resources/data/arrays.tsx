@@ -66,6 +66,41 @@ import armour_stone2 from '../images/armour_stone2.jpg'
 import armour_stone3 from '../images/armour_stone3.jpg'
 import power_washing_sanding1 from '../images/power_washing_sanding1.jpg'
 import power_washing_sanding2 from '../images/power_washing_sanding2.jpg'
+import wood_work1 from '../images/wood_work1.jpg'
+import wood_work2 from '../images/wood_work2.jpg'
+import decks_design2 from '../images/decks_design2.jpg'
+import gates1 from '../images/gates1.jpg'
+import gates2 from '../images/gates2.jpg'
+import gates3 from '../images/gates3.jpg'
+import gates4 from '../images/gates4.jpg'
+import fences1 from '../images/fences1.jpg'
+import fences2 from '../images/fences2.jpeg'
+import fences3 from '../images/fences3.jpg'
+import fences4 from '../images/fences4.webp'
+import pergolas1 from '../images/pergolas1.jpg'
+import pergolas2 from '../images/pergolas2.jpg'
+import gazebos1 from '../images/gazebos1.webp'
+import gazebos2 from '../images/gazebos2.jpg'
+import wood_stain1 from '../images/wood_stain1.jpeg'
+import wood_stain2 from '../images/wood_stain2.jpg'
+import irrigation1 from '../images/irrigation1.jpg'
+import lighting1 from '../images/lighting1.jpg'
+import garden_supplies1 from '../images/garden_supplies1.png'
+import garden_supplies2 from '../images/garden_supplies2.jpeg'
+import soil1 from '../images/soil1.png'
+import soil2 from '../images/soil2.jpg'
+import soil3 from '../images/soil3.jpg'
+import soil4 from '../images/soil4.jpg'
+import soil5 from '../images/soil5.jpg'
+import mulch1 from '../images/mulch1.jpg'
+import aggregates1 from '../images/aggregates1.jpg'
+import commercial1 from '../images/commercial1.jpg'
+import commercial_property1 from '../images/commercial_maintenance1.jpeg'
+import high_end_comercial1 from '../images/high_end_commercial1.jpg'
+import spring1 from '../images/spring_clean1.jpg'
+import fall1 from '../images/fall_cleanup1.jpg'
+import garden1 from '../images/garden_maintenance1.jpeg'
+import garden_urns1 from '../images/garden_urns1.jpg'
 
 import service2 from '../images/service2.jpg'
 import service3 from '../images/service3.jpg'
@@ -96,6 +131,113 @@ import FlagstonePatio from '../../Layouts/ServicePage/Content/Services/Flagstone
 import NaturalStone from '../../Layouts/ServicePage/Content/Services/NaturalStone';
 import ArmourStone from '../../Layouts/ServicePage/Content/Services/ArmourStone';
 import PowerWashingSanding from '../../Layouts/ServicePage/Content/Services/PowerWashingSanding';
+import WoodWork from '../../Layouts/ServicePage/Content/Services/WoodWork';
+import DecksDesignConstruction from '../../Layouts/ServicePage/Content/Services/DecksDesign';
+import Gates from '../../Layouts/ServicePage/Content/Services/Gates';
+import Fences from '../../Layouts/ServicePage/Content/Services/Fences';
+import Pergolas from '../../Layouts/ServicePage/Content/Services/Pergolas';
+import Gazebos from '../../Layouts/ServicePage/Content/Services/Gazebos';
+import PowerWashWoodStain from '../../Layouts/ServicePage/Content/Services/PowerWashWoodStain';
+import CommercialMaintenance from '../../Layouts/ServicePage/Content/Services/CommercialMaintenance';
+import LightingIrrigation from '../../Layouts/ServicePage/Content/Services/LightingIrrigation';
+import GardenSupplies from '../../Layouts/ServicePage/Content/Services/GardenSupplies';
+import CommercialPropertyMaintenance from '../../Layouts/ServicePage/Content/Services/CommercialPropertyMaintenance';
+import HighEndCommercialLandscaping from '../../Layouts/ServicePage/Content/Services/HighEndCommercialLandscaping';
+import SpringCleanupServiceToronto from '../../Layouts/ServicePage/Content/Services/SpringCleanupServiceToronto';
+import FallCleanupServiceToronto from '../../Layouts/ServicePage/Content/Services/FallCleanupServiceToronto';
+import GardenCleanupService from '../../Layouts/ServicePage/Content/Services/GardenCleanupService';
+import YardCleanupToronto from '../../Layouts/ServicePage/Content/Services/YardCleanupToronto';
+import SeasonalGardenUrnsAndPlanters from '../../Layouts/ServicePage/Content/Services/SeasonalGardenUrnsAndPlanters';
+import Soil from '../../Layouts/ServicePage/Content/Services/Soil';
+import Mulch from '../../Layouts/ServicePage/Content/Services/Mulch';
+import Aggregates from '../../Layouts/ServicePage/Content/Services/Aggregates';
+
+import project11 from '../images/projects/project1/back_img.jpg'
+import project12 from '../images/projects/project1/back_img1.jpg'
+import project13 from '../images/projects/project1/back_img10.jpg'
+import project14 from '../images/projects/project1/back_img11.jpg'
+import project15 from '../images/projects/project1/back_img2.jpg'
+import project16 from '../images/projects/project1/back_img3.jpg'
+import project17 from '../images/projects/project1/back_img4.jpg'
+import project18 from '../images/projects/project1/back_img5.jpg'
+import project19 from '../images/projects/project1/back_img6.jpg'
+import project110 from '../images/projects/project1/back_img7.jpg'
+import project111 from '../images/projects/project1/back_img8.jpg'
+import project112 from '../images/projects/project1/back_img9.jpg'
+
+import project21 from '../images/projects/project2/inter_img.jpg'
+import project22 from '../images/projects/project2/inter_img1.jpg'
+import project23 from '../images/projects/project2/inter_img2.jpg'
+import project24 from '../images/projects/project2/inter_img3.jpg'
+import project25 from '../images/projects/project2/inter_img4.jpg'
+import project26 from '../images/projects/project2/inter_img5.jpg'
+import project27 from '../images/projects/project2/inter_img6.jpg'
+
+import project31 from '../images/projects/project3/fence_img.jpg'
+import project32 from '../images/projects/project3/fence_img1.jpg'
+import project33 from '../images/projects/project3/fence_img2.jpg'
+import project34 from '../images/projects/project3/fence_img3.jpg'
+import project35 from '../images/projects/project3/fence_img4.jpg'
+import project36 from '../images/projects/project3/fence_img5.jpg'
+
+import project41 from '../images/projects/project4/deck_img.jpg'
+import project42 from '../images/projects/project4/deck_img1.jpg'
+import project43 from '../images/projects/project4/deck_img2.jpg'
+import project44 from '../images/projects/project4/deck_img3.jpg'
+import project45 from '../images/projects/project4/deck_img4.jpg'
+import project46 from '../images/projects/project4/deck_img5.jpg'
+
+import project51 from '../images/projects/project5/flagstone_img.jpg'
+import project52 from '../images/projects/project5/flagstone_img1.jpg'
+import project53 from '../images/projects/project5/flagstone_img2.jpg'
+import project54 from '../images/projects/project5/flagstone_img3.jpg'
+import project55 from '../images/projects/project5/flagstone_img4.jpg'
+import project56 from '../images/projects/project5/flagstone_img5.jpg'
+import project57 from '../images/projects/project5/flagstone_img6.jpg'
+
+import project61 from '../images/projects/project6/sod_img.jpg'
+import project62 from '../images/projects/project6/sod_img1.jpg'
+import project63 from '../images/projects/project6/sod_img2.jpg'
+import project64 from '../images/projects/project6/sod_img3.jpg'
+import project65 from '../images/projects/project6/sod_img4.jpg'
+import project66 from '../images/projects/project6/sod_img5.jpg'
+import project67 from '../images/projects/project6/sod_img6.jpg'
+import project68 from '../images/projects/project6/sod_img7.jpg'
+import project69 from '../images/projects/project6/sod_img8.jpg'
+import project610 from '../images/projects/project6/sod_img9.jpg'
+
+import project71 from '../images/projects/project7/design_img12.jpg'
+import project72 from '../images/projects/project7/design_img13.jpg'
+import project73 from '../images/projects/project7/design_img21.jpg'
+import project74 from '../images/projects/project7/design_img31.jpg'
+import project75 from '../images/projects/project7/design_img41.jpg'
+import project76 from '../images/projects/project7/design_img51.jpg'
+
+import project81 from '../images/projects/project8/flagstone_img11.jpg'
+import project82 from '../images/projects/project8/flagstone_img21.jpg'
+import project83 from '../images/projects/project8/flagstone_img31.jpg'
+import project84 from '../images/projects/project8/flagstone_img41.jpg'
+import project85 from '../images/projects/project8/flagstone_img51.jpg'
+import project86 from '../images/projects/project8/flagstone_img61.jpg'
+import project87 from '../images/projects/project8/flagstone_img7.jpg'
+import project88 from '../images/projects/project8/flagstone_img8.jpg'
+
+import project91 from '../images/projects/project9/interlocking_img.jpg'
+import project92 from '../images/projects/project9/interlocking_img1.jpg'
+import project93 from '../images/projects/project9/interlocking_img2.jpg'
+import project94 from '../images/projects/project9/interlocking_img3.jpg'
+
+import project101 from '../images/projects/project10/img1.jpg'
+import project102 from '../images/projects/project10/img12.jpg'
+import project103 from '../images/projects/project10/img2.jpg'
+import project104 from '../images/projects/project10/img3.jpg'
+import project105 from '../images/projects/project10/img4.jpg'
+import project106 from '../images/projects/project10/img5.jpg'
+import project107 from '../images/projects/project10/img6.jpg'
+import project108 from '../images/projects/project10/img7.jpg'
+import project109 from '../images/projects/project10/img8.jpg'
+import project1010 from '../images/projects/project10/img9.jpg'
+
 
 export const servicesList = [
     {
@@ -367,26 +509,114 @@ export const servicesList = [
             {
                 id: 7,
                 title: "Wood Work",
-                subTitle: "Subservice 1",
-                link: '/',
-                images: [service1, service1],
-                about: "Subservice 1"
+                subTitle: "Wood Work",
+                link: 'services/general-services/wood-work',
+                images: [wood_work1, wood_work2],
+                about: "Wood Work",
+                content: <WoodWork />,
+                subSubServices: [
+                    {
+                        id: 1,
+                        title: `Decks – Design, Construction`,
+                        subTitle: "Decks – Design, Construction",
+                        link: 'services/general-services/wood-work/decks-design',
+                        images: [wood_work1, decks_design2],
+                        about: "Decks – Design, Construction",
+                        content: <DecksDesignConstruction />
+                    },
+                    {
+                        id: 2,
+                        title: `Gates`,
+                        subTitle: "Gates",
+                        link: 'services/general-services/wood-work/gates',
+                        images: [gates1, gates2, gates3, gates4],
+                        about: "Gates",
+                        content: <Gates />
+                    },
+                    {
+                        id: 3,
+                        title: `Fences`,
+                        subTitle: "Fences",
+                        link: 'services/general-services/wood-work/fences',
+                        images: [fences4, fences2, fences3, fences1],
+                        about: "Fences",
+                        content: <Fences />
+                    },
+                    {
+                        id: 4,
+                        title: `Pergolas`,
+                        subTitle: "Pergolas",
+                        link: 'services/general-services/wood-work/pergolas',
+                        images: [pergolas1, pergolas2],
+                        about: "Pergolas",
+                        content: <Pergolas />
+                    },
+                    {
+                        id: 5,
+                        title: `Gazebos`,
+                        subTitle: "Gazebos",
+                        link: 'services/general-services/wood-work/gazebos',
+                        images: [gazebos1, gazebos2],
+                        about: "Gazebos",
+                        content: <Gazebos />
+                    },
+                    {
+                        id: 6,
+                        title: `Power Wash & Wood Stain`,
+                        subTitle: "Power Wash & Wood Stain",
+                        link: 'services/general-services/wood-work/power-wash',
+                        images: [wood_stain1, wood_stain2],
+                        about: "Power Wash & Wood Stain",
+                        content: <PowerWashWoodStain />
+                    },
+                ]
             },
             {
                 id: 8,
                 title: "Lighting & Irrigation",
-                subTitle: "Subservice 1",
-                link: '/',
-                images: [service1, service1],
-                about: "Subservice 1"
+                subTitle: "Lighting & Irrigation",
+                link: 'services/general-services/lighting-and-irrigation',
+                images: [irrigation1, lighting1],
+                about: "Lighting & Irrigation",
+                content: <LightingIrrigation />,
             },
             {
                 id: 9,
                 title: "Garden Supplies",
-                subTitle: "Subservice 1",
-                link: '/',
-                images: [service1, service1],
-                about: "Subservice 1"
+                subTitle: "Garden Supplies",
+                link: 'services/general-services/garden-supplies',
+                images: [garden_supplies1, garden_supplies2],
+                about: "Garden Supplies",
+                content: <GardenSupplies />,
+                subSubServices: [
+                    {
+                        id: 1,
+                        title: `Soil`,
+                        subTitle: "Soil",
+                        link: 'services/general-services/garden-supplies/soil',
+                        images: [soil1, soil2, soil3, soil4, soil5],
+                        about: "Soil",
+                        content: <Soil />
+                    },
+                    {
+                        id: 2,
+                        title: `Mulch`,
+                        subTitle: "Mulch",
+                        link: 'services/general-services/garden-supplies/mulch',
+                        images: [mulch1],
+                        about: "Mulch",
+                        content: <Mulch />
+                    },
+                    {
+                        id: 3,
+                        title: `Aggregates`,
+                        subTitle: "Aggregates",
+                        link: 'services/general-services/garden-supplies/aggregates',
+                        images: [aggregates1],
+                        about: "Aggregates",
+                        content: <Aggregates />
+                    },
+                ]
             },
 
         ]
@@ -399,12 +629,31 @@ export const servicesList = [
         subServices: [
             {
                 id: 1,
-                title: "Subservice 2",
-                subTitle: "Subservice 2",
-                link: '/',
-                images: [landscaping_services1, landscaping_services2, landscaping_services3],
-                about: "Subservice 2"
-            }
+                title: "Commercial Maintenance",
+                subTitle: "Commercial Maintenance",
+                link: 'services/commercial-services/commercial-maintenance',
+                images: [commercial1],
+                about: "Commercial Maintenance",
+                content: <CommercialMaintenance />,
+            },
+            {
+                id: 2,
+                title: "Property Maintenance",
+                subTitle: "Property Maintenance",
+                link: 'services/commercial-services/property-maintenance',
+                images: [commercial_property1],
+                about: "Property Maintenance",
+                content: <CommercialPropertyMaintenance />,
+            },
+            {
+                id: 3,
+                title: "High End Commercial Maintenance",
+                subTitle: "High End Commercial Maintenance",
+                link: 'services/commercial-services/high-end-maintenance',
+                images: [high_end_comercial1],
+                about: "High End Commercial Maintenance",
+                content: <HighEndCommercialLandscaping />,
+            },
         ]
     },
     {
@@ -415,35 +664,39 @@ export const servicesList = [
         subServices: [
             {
                 id: 1,
-                title: "Subservice 3",
-                subTitle: "Subservice 3",
+                title: "Spring Cleanup Service",
+                subTitle: "Spring Cleanup Service",
                 link: 'services/clean-up-services/spring-clean-up',
-                images: [service1, service1],
-                about: "Subservice 3"
+                images: [spring1],
+                about: "Spring Cleanup Service",
+                content: <SpringCleanupServiceToronto />,
             },
             {
                 id: 2,
-                title: "Subservice 3",
-                subTitle: "Subservice 3",
+                title: "Fall Cleanup Service",
+                subTitle: "Fall Cleanup Service",
                 link: 'services/clean-up-services/fall-clean-up',
-                images: [service1, service1],
-                about: "Subservice 3"
+                images: [fall1],
+                about: "Fall Cleanup Service",
+                content: <FallCleanupServiceToronto />,
             },
             {
                 id: 3,
-                title: "Subservice 3",
-                subTitle: "Subservice 3",
+                title: "Garden Cleanup Service",
+                subTitle: "Garden Cleanup Service",
                 link: 'services/clean-up-services/garden-clean-up',
-                images: [service1, service1],
-                about: "Subservice 3"
+                images: [garden1],
+                about: "Garden Cleanup Service",
+                content: <GardenCleanupService />,
             },
             {
                 id: 4,
-                title: "Subservice 3",
-                subTitle: "Subservice 3",
+                title: "Yard Cleanup Service",
+                subTitle: "Yard Cleanup Service",
                 link: 'services/clean-up-services/yard-clean-up',
-                images: [service1, service1],
-                about: "Subservice 3"
+                images: [fall1],
+                about: "Yard Cleanup Service",
+                content: <YardCleanupToronto />,
             },
         ]
     },
@@ -455,12 +708,13 @@ export const servicesList = [
         subServices: [
             {
                 id: 1,
-                title: "Subservice 4",
-                subTitle: "Subservice 4",
-                link: '/',
-                images: [service1, service1],
-                about: "Subservice 4"
-            }
+                title: "Garden Urns and Planters",
+                subTitle: "Garden Urns and Planters",
+                link: 'services/special-services/garden-urns-planters',
+                images: [garden_urns1],
+                about: "Garden Urns and Planters",
+                content: <SeasonalGardenUrnsAndPlanters />,
+            },
         ]
     }
 ]
@@ -468,43 +722,53 @@ export const servicesList = [
 export const projectsGallery = [
     {
         id: 1,
-        title: "Project 1",
-        images: [service1, service2, service3, service4]
+        title: "Re Design Of Back Yard Deck Interlocking patio and planting",
+        images: [project11, project12, project13, project14, project15, project16, project17, project18, project19, project110, project111, project112]
     },
     {
         id: 2,
-        title: "Project 2",
-        images: [service1, service2, service3, service4]
+        title: "Interlocking Patio and Garden Design And Planting",
+        images: [project21, project22, project23, project24, project25, project26, project27]
     },
     {
         id: 3,
-        title: "Project 3",
-        images: [service1, service2, service3, service4]
+        title: "New Fence And Sod",
+        images: [project31, project32, project33, project34, project35, project36]
     },
     {
         id: 4,
-        title: "Project 4",
-        images: [service1, service2, service3, service4]
+        title: "New deck",
+        images: [project41, project42, project43, project44, project45, project46]
     },
     {
         id: 5,
-        title: "Project 5",
-        images: [service1, service2, service3, service4]
+        title: "New Fence Sod Patio And Flagstone Path",
+        images: [project51, project52, project53, project54, project55, project56, project57]
     },
     {
         id: 6,
-        title: "Project 6",
-        images: [service1, service2, service3, service4]
+        title: "New Sod Flagstone Patio Garden Design",
+        images: [project61, project62, project63, project64, project65, project66, project67, project68, project69, project610]
     },
     {
         id: 7,
-        title: "Project 7",
-        images: [service1, service2, service3, service4]
+        title: "Garden Design Make-Over",
+        images: [project71, project72, project73, project74, project75, project76]
     },
     {
-        id: 7,
-        title: "Project 7",
-        images: [service1, service2, service3, service4]
+        id: 8,
+        title: "Flagstone patio fence Planter box and paint",
+        images: [project81, project82, project83, project84, project85, project86, project87, project88]
+    },
+    {
+        id: 9,
+        title: "Interlocking patio fence sod and a garden bed",
+        images: [project91, project92, project93, project94]
+    },
+    {
+        id: 10,
+        title: "Retaining Wall",
+        images: [project101, project102, project103, project104, project105, project106, project107, project108, project109, project1010]
     },
 ]
 

@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { useMediaQuery } from "@mui/material";
+import { Box, useMediaQuery } from "@mui/material";
 import disableScroll from "disable-scroll"; // Import the library
 import {
     HeaderLink,
@@ -25,6 +25,8 @@ import EmailIcon from "@mui/icons-material/EmailOutlined";
 // import { servicesList } from "../../resources/data/arrays";
 import { Link, useLocation } from "react-router-dom";
 import { MainPageOptionsQuoteButton } from "../MainPageOptions/styled.tsx";
+import { servicesList } from "../../resources/data/arrays.tsx";
+import { MobileHeader } from "./MobileHeader.tsx";
 
 interface IProps { }
 
@@ -77,7 +79,7 @@ export const Header: React.FC<IProps> = () => {
                                         sx={{
                                             height: '44px',
                                         }}
-                                        // onClick={() => setOpenQuoteDialog(true)}
+                                    // onClick={() => setOpenQuoteDialog(true)}
                                     >
 
                                         Contact Us
@@ -86,9 +88,9 @@ export const Header: React.FC<IProps> = () => {
                             )}
 
                             {mobile && (
-                                <MobileHeaderButton onClick={() => setShowMobileMenu(!showMobileMenu)}>
-                                    <Menu />
-                                </MobileHeaderButton>
+                                <Box>
+                                    <MobileHeader servicesList={servicesList} />
+                                </Box>
                             )}
                         </HeaderRightPart>
                     </HeaderInnerInnerContainer>

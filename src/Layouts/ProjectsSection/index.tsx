@@ -77,8 +77,8 @@ export const ProjectsSection: React.FC<IProps> = ({ projects }) => {
                             key={project.id}
                             sx={{
                                 padding: mobile ? '30px 16px' : '40px 20px',
-                                minWidth: mobile ? 'calc(100% / 2 - 36px)' : 'calc(100% / 2 - 46px)',
-                                maxWidth: mobile ? 'calc(100% / 2 - 36px)' : 'calc(100% / 2 - 46px)',
+                                minWidth: mobile ? 'calc(100% - 36px)' : 'calc(100% / 2 - 46px)',
+                                maxWidth: mobile ? 'calc(100% - 36px)' : 'calc(100% / 2 - 46px)',
                                 background: `url(${project.images[currentImageIndex]})`,
                                 backgroundRepeat: 'no-repeat',
                                 backgroundSize: 'cover',
@@ -104,7 +104,10 @@ export const ProjectsSection: React.FC<IProps> = ({ projects }) => {
                             >
                                 <ArrowForwardIos fontSize="small" />
                             </StyledProjectCellButton>
-                            <StyledProjectCellTitle>
+                            <StyledProjectCellTitle
+                                sx={{
+                                }}
+                            >
                                 {project.title}
                             </StyledProjectCellTitle>
                         </StyledProjectCell>

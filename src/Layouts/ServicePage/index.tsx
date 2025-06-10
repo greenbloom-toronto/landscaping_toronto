@@ -43,8 +43,8 @@ const ServicePage = () => {
             {/* Sidebar */}
 
             {/* Main Content */}
-            <div style={{ display: 'flex', gap: '30px', flexDirection: 'row-reverse' }}>
-                {currentSubService?.subSubServices?.length > 0 && !mobile && (
+            <div style={{ display: 'flex', gap: mobile ? 0 : '30px', flexDirection: mobile ? 'column' : 'row-reverse' }}>
+                {currentSubService?.subSubServices?.length > 0  && (
                     <StyledServicePageSidebar
                         style={{
                             padding: '1rem',
@@ -74,7 +74,7 @@ const ServicePage = () => {
                                             to={`/${sub.link}`}
                                             style={{
                                                 textDecoration: 'none',
-                                                color: isActive ? 'blue' : '#333',
+                                                color: isActive ? '#02703d' : '#333',
                                                 fontWeight: isActive ? 'bold' : 'normal',
                                             }}
                                         >

@@ -25,7 +25,11 @@ export const StyledServicePageContent = styled('div')(() => ({
     display: 'flex',
     gap: '30px',
     flexDirection: 'column',
-    width: 'calc(80% - 24px)'
+    width: 'calc(80% - 24px)',
+
+    ['@media (max-width: 1000px)']: {
+        width: 'calc(100%)'
+    }
 }))
 
 export const StyledServicePageSidebar = styled('aside')(() => ({
@@ -34,6 +38,13 @@ export const StyledServicePageSidebar = styled('aside')(() => ({
     width: 'calc(20% - 24px)',
     borderRadius: '40px',
     height: 'calc(60vh - 30px)',
+
+    ['@media (max-width: 1000px)']: {
+        marginTop: '90px',
+        // height: "fit-content",
+        height: 'fit-content',
+        width: 'calc(100% - 36px)',
+    }
 }))
 
 export const StyledContentBanner = styled('section')(() => ({
@@ -51,12 +62,14 @@ export const StyledContentBanner = styled('section')(() => ({
     overflow: 'hidden',
 
     ['@media (max-width: 1000px)']: {
-        marginTop: '70px',
+        marginTop: '30px',
         // height: "fit-content",
         height: 'calc(100vh - 100px)',
         justifyContent: 'space-between',
-        padding: '0',
-        alignItems: 'flex-start'
+        alignItems: 'flex-start',
+        textAlign: 'center',
+        padding: '30px 0',
+        maxHeight: '600px'
     }
 }))
 
@@ -73,7 +86,14 @@ export const StyledContentBannerTitle = styled('h1')(() => ({
     fontSize: '64px',
     fontWeight: 700,
     color: '#fff',
-    zIndex: 9
+    zIndex: 9,
+
+    ['@media (max-width: 1000px)']: {
+        fontSize: '42px',
+        margin: 'auto',
+        width: 'calc(90%)',
+        textAlign: 'center',
+    }
 }))
 
 export const StyledContentText = styled('section')(() => ({
@@ -82,5 +102,10 @@ export const StyledContentText = styled('section')(() => ({
     borderRadius: '40px',
     width: 'calc(100vw - 120px)',
     padding: '30px',
-    maxWidth: '1540px'
+    maxWidth: '1540px',
+
+    ['@media (max-width: 1000px)']: {
+        width: 'calc(100vw - 64px)',
+        padding: '16px',
+    }
 }))

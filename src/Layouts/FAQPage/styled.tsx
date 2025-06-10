@@ -18,6 +18,7 @@ export const StyledFAQPageMain = styled('div')(() => ({
         marginTop: '70px',
         // height: "fit-content",
         height: 'calc(100vh - 100px)',
+        maxHeight: '600px',
         justifyContent: 'space-between',
         padding: '0',
         alignItems: 'flex-start'
@@ -59,7 +60,7 @@ export const StyledFAQPageContentTop = styled('div')(() => ({
     ['@media (max-width: 1000px)']: {
         flexDirection: 'column',
         alignItems: 'flex-start',
-        gap: '24px'
+        gap: '24px',
     }
 }))
 
@@ -82,6 +83,7 @@ export const StyledFAQPageTitle = styled('h1')(() => ({
 
     ['@media (max-width: 1000px)']: {
         fontSize: '30px',
+        textAlign: 'center'
     }
 }))
 
@@ -89,6 +91,11 @@ export const StyledFAQPageSubTitle = styled('h4')(() => ({
     color: '#fff',
     fontSize: '18px',
     fontWeight: 500,
+
+    ['@media (max-width: 1000px)']: {
+        fontSize: '18px',
+        textAlign: 'center'
+    }
 }))
 
 export const StyledFAQPageTopButton = styled(Button)(() => ({

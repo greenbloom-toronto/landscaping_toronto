@@ -1,3 +1,4 @@
+import { useMediaQuery } from "@mui/material";
 import { StyledContentBanner, StyledContentBannerShadow, StyledContentBannerTitle, StyledContentText, StyledServicePageContent } from "../styled"
 
 interface IProps {
@@ -6,11 +7,13 @@ interface IProps {
 }
 
 export const ServicePageContent: React.FC<IProps> = ({ service, currentLevel }) => {
+    const mobile = useMediaQuery("(max-width:1000px)");
 
     return (
         <StyledServicePageContent
             sx={{
-                width: currentLevel === "subSubService" ? 'calc(80% - 24px)' : service.subSubServices ? 'calc(80% - 24px)' : '100%'
+                width: mobile ? '100%' : currentLevel === "subSubService" ? 'calc(80% - 24px)' : service.subSubServices ? 'calc(80% - 24px)' : '100%',
+                marginTop: service.subServices ? 0 : service.subSubServices ? '0' : currentLevel === "subSubService" ? 0 : '50px'
             }}
         // dangerouslySetInnerHTML={{
         //     __html:
