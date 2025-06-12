@@ -60,6 +60,14 @@ export const MainPage: React.FC = () => {
                         margin: 'auto'
                     }}
                     startIcon={<ContactMailOutlined sx={{ marginRight: '20px', transform: 'scale(1.5)' }} />}
+                    onClick={() => {
+                        const formElement = document.getElementById('form');
+                        if (formElement) {
+                            const yOffset = mobile ? -60 : -100; // scroll 70px above the element
+                            const y = formElement.getBoundingClientRect().top + window.pageYOffset + yOffset;
+                            window.scrollTo({ top: y, behavior: 'smooth' });
+                        }
+                    }}
                 >
                     Get a Free Quote
                 </StyledFormSubmit>

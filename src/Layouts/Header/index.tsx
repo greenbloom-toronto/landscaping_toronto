@@ -71,6 +71,14 @@ export const Header: React.FC<IProps> = () => {
                                         sx={{
                                             height: '44px',
                                         }}
+                                        onClick={() => {
+                                            const formElement = document.getElementById('form');
+                                            if (formElement) {
+                                                const yOffset = mobile ? -60 : -100; // scroll 70px above the element
+                                                const y = formElement.getBoundingClientRect().top + window.pageYOffset + yOffset;
+                                                window.scrollTo({ top: y, behavior: 'smooth' });
+                                            }
+                                        }}
                                     // onClick={() => setOpenQuoteDialog(true)}
                                     >
 

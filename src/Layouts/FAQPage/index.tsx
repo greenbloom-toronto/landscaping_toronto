@@ -80,7 +80,16 @@ export const FAQPage: React.FC = () => {
                             }
                         }}
                     >
-                        <FAQPageQuoteButton>Get a quote</FAQPageQuoteButton>
+                        <FAQPageQuoteButton
+                            onClick={() => {
+                                const formElement = document.getElementById('form');
+                                if (formElement) {
+                                    const yOffset = mobile ? -60 : -100; // scroll 70px above the element
+                                    const y = formElement.getBoundingClientRect().top + window.pageYOffset + yOffset;
+                                    window.scrollTo({ top: y, behavior: 'smooth' });
+                                }
+                            }}
+                        >Get a quote</FAQPageQuoteButton>
 
                         <StyledFAQPageTopRight
 

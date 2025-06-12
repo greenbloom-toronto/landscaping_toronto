@@ -181,7 +181,7 @@ export const QuoteRequestForm: React.FC<QuoteRequestFormProps> = ({ careers = fa
     };
 
     return (
-        <StyledFormPage>
+        <StyledFormPage id="form">
             <StyledFormPageContent isCareers={true}>
                 <StyledFormPageTop>
                     <StyledFormPageTitle>
@@ -418,7 +418,7 @@ export const QuoteRequestForm: React.FC<QuoteRequestFormProps> = ({ careers = fa
                                     </StyledFormInputsFirstLine>
 
                                     <StyledFormInputsFirstLine>
-                                        <StyledMainPageFieldBlock sx={{ minWidth: 'calc(100%/2 - 10px)', maxWidth: 'calc(100%/2 - 10px)' }}>
+                                        <StyledMainPageFieldBlock sx={{ minWidth: 'calc(100%/2 - 10px)', maxWidth: 'calc(100%/2 - 10px)', overflow: 'hidden' }}>
                                             <StyledFieldBlockTitle>Select Service</StyledFieldBlockTitle>
                                             <FormControl fullWidth>
                                                 <StyledFieldBlockSelect
